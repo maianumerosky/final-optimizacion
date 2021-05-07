@@ -1,3 +1,7 @@
 jupyter
 numpy
 gym
+pandas
+numpy
+torch
+matplotlib

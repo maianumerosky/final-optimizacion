@@ -1,6 +1,7 @@
 import setuptools
+
 setuptools.setup(
-    name='reinforcement-learning',
+    name='reinforcement_learning',
     version='0.0.1',
     packages=setuptools.find_packages(),
     include_package_data=True,
