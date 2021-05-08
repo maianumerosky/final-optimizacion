@@ -5,3 +5,5 @@ pandas
 numpy
 torch
 matplotlib
+setuptools
+tqdm
