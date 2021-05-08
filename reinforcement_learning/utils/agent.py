@@ -1,16 +1,6 @@
 import numpy as np
 
 
-# class Agent:
-#     def __init__(self, policy):
-#         self._policy = policy
-#
-#     def select_action(self, state):
-#         distribution = self._policy.get_distribution(state)
-#         return np.argmax(distribution)
-#
-#
-
 class Agent:
     def __init__(self, policy):
         self._policy = policy
