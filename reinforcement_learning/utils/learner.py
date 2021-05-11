@@ -19,7 +19,7 @@ class Learner:
         actions = torch.LongTensor(actions)
         dones = torch.Tensor(dones)
 
-        # Compute loss
+        # Compute loss (ver minuto 26 de la charla para aclaraciones)
         values = self.policy.model(states)
         qs = values.gather(dim=1, index=actions.view(-1, 1)).view(-1)
 
